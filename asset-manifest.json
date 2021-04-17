@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fordat-deploy/static/css/main.21eac7a8.chunk.css",
+    "main.css": "/fordat-deploy/static/css/main.83c53190.chunk.css",
     "main.js": "/fordat-deploy/static/js/main.680db6d0.chunk.js",
     "main.js.map": "/fordat-deploy/static/js/main.680db6d0.chunk.js.map",
     "runtime-main.js": "/fordat-deploy/static/js/runtime-main.b0146c2c.js",
@@ -10,13 +10,13 @@
     "static/js/3.e57e8e52.chunk.js": "/fordat-deploy/static/js/3.e57e8e52.chunk.js",
     "static/js/3.e57e8e52.chunk.js.map": "/fordat-deploy/static/js/3.e57e8e52.chunk.js.map",
     "index.html": "/fordat-deploy/index.html",
-    "static/css/main.21eac7a8.chunk.css.map": "/fordat-deploy/static/css/main.21eac7a8.chunk.css.map",
+    "static/css/main.83c53190.chunk.css.map": "/fordat-deploy/static/css/main.83c53190.chunk.css.map",
     "static/js/2.8f0e4d73.chunk.js.LICENSE.txt": "/fordat-deploy/static/js/2.8f0e4d73.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b0146c2c.js",
     "static/js/2.8f0e4d73.chunk.js",
-    "static/css/main.21eac7a8.chunk.css",
+    "static/css/main.83c53190.chunk.css",
     "static/js/main.680db6d0.chunk.js"
   ]
 }
