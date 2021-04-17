@@ -1,9 +1,18 @@
 .App {
+  width: 60%;
+}
+
+.App-box {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
+  border-style: double;
+  border-width: 6px;
 }
 
 body {
-  background-color: orange;
+  background-color: white;
 }
 
 .App-logo {
