@@ -16,8 +16,8 @@ function App() {
           <Navbar />
           <br />
           <Route path="/" exact component={About} />
-          <Route path="/work" exact component={Work} />
-          <Route path="/painting" exact component={Painting} />
+          <Route path="/work" component={Work} />
+          <Route path="/painting" component={Painting} />
         </BrowserRouter>
       </div>
     </div>
