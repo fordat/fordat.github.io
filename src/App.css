@@ -9,18 +9,19 @@
   text-align: center;
   border-style: double;
   border-width: 6px;
+  border-color: #ECECF8;
 }
 
 .main-nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: black;
+  background-color: #ECECF8;
 }
 
-.main-nav a {
+.nav-link {
   padding: 14px 16px;
-  color: #f2f2f2;
   text-decoration: none;
+  color: #18183D;
 }
 
 @media screen and (max-width: 1000px) {
@@ -38,6 +39,26 @@
 }
 
 body {
-  background-color: white;
+  background-color: #A3A3DE;
 }
 
+p, h1 {
+  color: #18183D;
+}
+
+
+/* lavender */
+/* .App-box-green {
+  border-color: #ECECF8;
+}
+
+.main-nav-green {  
+  background-color: #ECECF8;
+}
+
+.nav-link-green {
+  color: #18183D;
+}
+
+.body-green {
+  background-color: #98B997; */
