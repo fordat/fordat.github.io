@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fordat-deploy/static/css/main.5ea3f8f4.chunk.css",
-    "main.js": "/fordat-deploy/static/js/main.55ea4c2f.chunk.js",
-    "main.js.map": "/fordat-deploy/static/js/main.55ea4c2f.chunk.js.map",
+    "main.css": "/fordat-deploy/static/css/main.9b378098.chunk.css",
+    "main.js": "/fordat-deploy/static/js/main.f48cf177.chunk.js",
+    "main.js.map": "/fordat-deploy/static/js/main.f48cf177.chunk.js.map",
     "runtime-main.js": "/fordat-deploy/static/js/runtime-main.e2694a8f.js",
     "runtime-main.js.map": "/fordat-deploy/static/js/runtime-main.e2694a8f.js.map",
     "static/js/2.06377297.chunk.js": "/fordat-deploy/static/js/2.06377297.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.34f52978.chunk.js": "/fordat-deploy/static/js/3.34f52978.chunk.js",
     "static/js/3.34f52978.chunk.js.map": "/fordat-deploy/static/js/3.34f52978.chunk.js.map",
     "index.html": "/fordat-deploy/index.html",
-    "static/css/main.5ea3f8f4.chunk.css.map": "/fordat-deploy/static/css/main.5ea3f8f4.chunk.css.map",
+    "static/css/main.9b378098.chunk.css.map": "/fordat-deploy/static/css/main.9b378098.chunk.css.map",
     "static/js/2.06377297.chunk.js.LICENSE.txt": "/fordat-deploy/static/js/2.06377297.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e2694a8f.js",
     "static/js/2.06377297.chunk.js",
-    "static/css/main.5ea3f8f4.chunk.css",
-    "static/js/main.55ea4c2f.chunk.js"
+    "static/css/main.9b378098.chunk.css",
+    "static/js/main.f48cf177.chunk.js"
   ]
 }
