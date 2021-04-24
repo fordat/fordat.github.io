@@ -1,27 +1,11 @@
 import React from 'react';
 
 class About extends React.Component {
-    // state = {
-    //     color: "green"
-    // }
-
-    // appbox = document.querySelector(".App-box");
-    // mainnav = document.querySelector(".main-nav");
-    // navlink = document.querySelector(".nav-link");
-    // bodycolor = document.querySelector(".App-box");
-
-    // changeable = [];
-
-    // changeColors() {
-    //     console.log("ayyyyyyy");
-    //     document.body.classList.add('body-green');
-
-    // }
-
     render() {
         return (
-            <div>
-                <p>About component!</p>
+            <div className="info-wrapper">
+                <h3 className="info">About Me</h3>
+                <p className="info">I'm a researcher and software developer living out in Vancouver, BC.</p>
             </div>
 
         )

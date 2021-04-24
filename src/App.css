@@ -14,7 +14,7 @@
 
 .main-nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   background-color: #ECECF8;
 }
 
@@ -22,6 +22,12 @@
   padding: 14px 16px;
   text-decoration: none;
   color: #18183D;
+}
+
+.slider-div {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1em;
 }
 
 @media screen and (max-width: 1000px) {
@@ -46,19 +52,12 @@ p, h1 {
   color: #18183D;
 }
 
-
-/* lavender */
-/* .App-box-green {
-  border-color: #ECECF8;
+.info {
+  text-align: left;
 }
 
-.main-nav-green {  
-  background-color: #ECECF8;
+.info-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom:2em;
 }
-
-.nav-link-green {
-  color: #18183D;
-}
-
-.body-green {
-  background-color: #98B997; */
