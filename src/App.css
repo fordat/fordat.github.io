@@ -9,13 +9,13 @@
   text-align: center;
   border-style: double;
   border-width: 6px;
-  border-color: #ECECF8;
+  border-color: rgba(255,255,255,0.7);
 }
 
 .main-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: #ECECF8;
+  background-color: rgba(255,255,255,0.7);
 }
 
 .nav-link {
@@ -30,20 +30,7 @@
   padding-bottom: 1em;
 }
 
-@media screen and (max-width: 1000px) {
-  .App-box {
-    margin-left: 18%;
-    margin-right: 18%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .App-box {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-}
-
+/* default body background color :) */
 body {
   background-color: #A3A3DE;
 }
@@ -61,3 +48,19 @@ p, h1 {
   padding-right: 5%;
   padding-bottom:2em;
 }
+
+@media screen and (max-width: 1000px) {
+  .App-box {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App-box {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+

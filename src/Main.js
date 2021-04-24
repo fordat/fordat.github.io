@@ -24,7 +24,7 @@ class Main extends React.Component {
         oldBackground = background;
         // add state
         this.setState({background: background});
-        document.body.style = `background: ${oldBackground};`;
+        document.body.style = `background: ${background};`;
     };
 
     render() {
