@@ -9,19 +9,26 @@
   text-align: center;
   border-style: double;
   border-width: 6px;
-  border-color: rgba(255,255,255,0.7);
+  border-color: rgba(255,255,255,0.3);
 }
 
 .main-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.3);
 }
 
 .nav-link {
   padding: 14px 16px;
   text-decoration: none;
-  color: #18183D;
+  color: rgba(0,0,0,0.8);
+}
+
+.nav-link:hover {
+  background-color: rgba(255,255,255,0.2);
+  -moz-transition: background-color .3s ease-out;
+  -webkit-transition: background-color .3s ease-out;
+
 }
 
 .slider-div {
@@ -35,8 +42,26 @@ body {
   background-color: #A3A3DE;
 }
 
-p, h1 {
-  color: #18183D;
+p, h1, h3 {
+  color: rgba(0,0,0,0.8);
+}
+
+p {
+  line-height: 0.6cm;
+}
+
+.wlink {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.wlink:visited {
+  color: rgba(0,0,0,0.8);
+}
+.wlink:hover {
+  color: rgba(0,0,0,0.6);
+  -moz-transition: color .3s ease-out;
+  -webkit-transition: color .3s ease-out;
 }
 
 .info {
@@ -46,6 +71,10 @@ p, h1 {
 .info-wrapper {
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom:2em;
+}
+
+.slider {
   padding-bottom:2em;
 }
 

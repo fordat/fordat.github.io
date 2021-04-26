@@ -25,9 +25,8 @@ class Home extends React.Component {
     render() {
         return (
             <div className="slider-div">
-                <p>Try me!</p>
-                <br/>
-                <SliderPicker
+                <p>Help me finish my website!</p>
+                <SliderPicker className="slider"
                     ref={this.colorRef}
                     color={ this.state.background }
                     onChange={this.handleChange}
