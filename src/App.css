@@ -14,7 +14,7 @@
 
 .main-nav {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   background-color: rgba(255,255,255,0.3);
 }
 
@@ -50,6 +50,39 @@ p {
   line-height: 0.6cm;
 }
 
+/* HOME */
+.slider {
+  padding-bottom:2em;
+}
+
+/* PAINTING SECTION  */
+
+.painting-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:1em;
+  align-self: start;
+  padding: 1em;
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+.painting {
+  width: 100%;
+}
+
+/* ABOUT */
+
+.info {
+  text-align: left;
+}
+
+.info-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom:2em;
+}
+
 .wlink {
   font-weight: bold;
   text-decoration: none;
@@ -64,19 +97,7 @@ p {
   -webkit-transition: color .3s ease-out;
 }
 
-.info {
-  text-align: left;
-}
-
-.info-wrapper {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom:2em;
-}
-
-.slider {
-  padding-bottom:2em;
-}
+/* RESPONSIVE */
 
 @media screen and (max-width: 1000px) {
   .App-box {
