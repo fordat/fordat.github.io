@@ -37,7 +37,7 @@ class Main extends React.Component {
                   <br />
                   <Route path="/home" exact render={() => <Home changeBackground={this.changeBackground}></Home>} />
                   <Route path="/work" component={Work} />
-                  <Route path="/painting" component={Painting} />
+                  <Route path="/sketches" component={Painting} />
                   <Route path="/" exact component={About} />
                 </BrowserRouter>
               </div>
