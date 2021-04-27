@@ -86,6 +86,7 @@ p {
 .wlink {
   font-weight: bold;
   text-decoration: none;
+  color: rgba(0,0,0,0.8);
 }
 
 .wlink:visited {

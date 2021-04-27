@@ -6,9 +6,9 @@ class Navbar extends React.Component {
         return (
             <div className="nav-wrapper">
                 <nav className="main-nav">
-                    <Link to="/home" className="nav-link">Home</Link>
+                    <Link to="/colors" className="nav-link">Colors</Link>
                     {/* <Link to="/work" className="nav-link">Work</Link> */}
-                    <Link to="/sketches" className="nav-link">Sketches</Link>
+                    <Link to="/sketchbook" className="nav-link">Sketchbook</Link>
                     <Link to="/" className="nav-link">About</Link>
                 </nav>
             </div>

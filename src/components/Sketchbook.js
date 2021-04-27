@@ -3,7 +3,7 @@ import birds from './img/birds2.jpeg';
 import sea from './img/mediterranean.jpeg'
 import hand from './img/hand.jpeg'
 
-class Painting extends React.Component {
+class Sketchbook extends React.Component {
     render() {
         return (
             <div className="painting-wrapper">
@@ -15,4 +15,4 @@ class Painting extends React.Component {
     }
 }
 
-export default Painting
+export default Sketchbook

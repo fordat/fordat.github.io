@@ -1,7 +1,7 @@
 import React from 'react';
 import { SliderPicker } from 'react-color';
 
-class Home extends React.Component {
+class Colors extends React.Component {
 
     colorRef = React.createRef();
 
@@ -25,7 +25,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="slider-div">
-                <p>Help me finish things up:</p>
+                <p>Help me finish up my site:</p>
                 <SliderPicker className="slider"
                     ref={this.colorRef}
                     color={ this.state.background }
@@ -36,4 +36,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home
+export default Colors
