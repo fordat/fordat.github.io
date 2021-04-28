@@ -30,6 +30,7 @@ class Colors extends React.Component {
                     ref={this.colorRef}
                     color={ this.state.background }
                     onChange={this.handleChange}
+                    onChangeComplete={this.handleChange}
                 />
             </div>
         )
