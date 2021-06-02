@@ -1,7 +1,8 @@
 import React from 'react';
-import birds from './img/birds2.jpeg';
-import sea from './img/mediterranean.jpeg'
-import hand from './img/hand.jpeg'
+import birds from '../img/birds2.jpeg';
+import sea from '../img/mediterranean.jpeg'
+import hand from '../img/hand.jpeg'
+import stones from '../img/stones.jpg'
 
 class Sketchbook extends React.Component {
 
@@ -34,10 +35,19 @@ class Sketchbook extends React.Component {
         return (
             // todo: refactor images
             <div className="painting-wrapper">
-                <img className="painting" src={sea} alt="the sea" onClick={() => this.activateModal(sea)}></img>
-                <img className="painting" src={birds} alt="birds" onClick={() => this.activateModal(birds)}></img>
-                <img className="painting" src={hand} alt="hand" onClick={() => this.activateModal(hand)}></img>
-
+                <div className="img-wrapper">
+                    <img className="painting" src={stones} alt="stonecutters and a path" onClick={() => this.activateModal(stones)}></img>
+                </div>
+                <div className="img-wrapper">
+                    <img className="painting" src={sea} alt="the sea" onClick={() => this.activateModal(sea)}></img>
+                </div>
+                <div className="img-wrapper">
+                    <img className="painting" src={birds} alt="birds" onClick={() => this.activateModal(birds)}></img>
+                </div>
+                <div className="img-wrapper">
+                    <img className="painting" src={hand} alt="hand" onClick={() => this.activateModal(hand)}></img>
+                </div>
+                
                 {/* the modal */}
                 <div id="myModal" ref={this.modalRef} className="modal" onClick={(e) => this.deactivateModal(e)}>
                     <span className="close" onClick={(e) => this.deactivateModal(e)}>&times;</span>
