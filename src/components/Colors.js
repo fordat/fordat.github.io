@@ -13,10 +13,8 @@ class Colors extends React.Component {
         };
     }
 
-
     handleChange = (color, event) => {
         this.setState({ background: color.hex });
-
         const colorChange = this.colorRef.current.props.color;
         console.log(colorChange);
         this.props.changeBackground(colorChange);
