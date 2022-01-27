@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3272a71d.chunk.css",
-    "main.js": "/static/js/main.ce7d8611.chunk.js",
-    "main.js.map": "/static/js/main.ce7d8611.chunk.js.map",
+    "main.js": "/static/js/main.4a455b59.chunk.js",
+    "main.js.map": "/static/js/main.4a455b59.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.309a5685.js",
     "runtime-main.js.map": "/static/js/runtime-main.309a5685.js.map",
     "static/js/2.afe3d11e.chunk.js": "/static/js/2.afe3d11e.chunk.js",
@@ -13,6 +13,8 @@
     "static/css/main.3272a71d.chunk.css.map": "/static/css/main.3272a71d.chunk.css.map",
     "static/js/2.afe3d11e.chunk.js.LICENSE.txt": "/static/js/2.afe3d11e.chunk.js.LICENSE.txt",
     "static/media/birds2.a0d9c3e6.jpeg": "/static/media/birds2.a0d9c3e6.jpeg",
+    "static/media/face.8632ab16.jpeg": "/static/media/face.8632ab16.jpeg",
+    "static/media/foot.d80e6ad6.jpeg": "/static/media/foot.d80e6ad6.jpeg",
     "static/media/hand.451066ee.jpeg": "/static/media/hand.451066ee.jpeg",
     "static/media/katerose.a282bba5.jpg": "/static/media/katerose.a282bba5.jpg",
     "static/media/mediterranean.51a4fd14.jpeg": "/static/media/mediterranean.51a4fd14.jpeg",
@@ -23,6 +25,6 @@
     "static/js/runtime-main.309a5685.js",
     "static/js/2.afe3d11e.chunk.js",
     "static/css/main.3272a71d.chunk.css",
-    "static/js/main.ce7d8611.chunk.js"
+    "static/js/main.4a455b59.chunk.js"
   ]
 }
