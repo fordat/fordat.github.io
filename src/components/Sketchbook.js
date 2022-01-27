@@ -5,6 +5,8 @@ import hand from '../img/hand.jpeg';
 import stones from '../img/stones.jpg';
 import mike from '../img/mike2.jpg';
 import katerose from '../img/katerose.jpg';
+import face from '../img/face.jpeg';
+import foot from '../img/foot.jpeg';
 
 class Sketchbook extends React.Component {
 
@@ -38,20 +40,33 @@ class Sketchbook extends React.Component {
             // todo: refactor images
             <div className="painting-wrapper">
                 <div className="img-wrapper">
+                    <img className="painting" src={foot} alt="A foot and a street" onClick={() => this.activateModal(foot)}></img>
+                </div>
+
+                <div className="img-wrapper">
+                    <img className="painting" src={face} alt="A face I painted" onClick={() => this.activateModal(face)}></img>
+                </div>
+
+                <div className="img-wrapper">
                     <img className="painting" src={katerose} alt="Katerose from LOGH" onClick={() => this.activateModal(katerose)}></img>
                 </div>
+
                 <div className="img-wrapper">
                     <img className="painting" src={mike} alt="Mike Stoklasa" onClick={() => this.activateModal(mike)}></img>
                 </div>
+
                 <div className="img-wrapper">
                     <img className="painting" src={stones} alt="stonecutters and a path" onClick={() => this.activateModal(stones)}></img>
                 </div>
+
                 <div className="img-wrapper">
                     <img className="painting" src={sea} alt="the sea" onClick={() => this.activateModal(sea)}></img>
                 </div>
+
                 <div className="img-wrapper">
                     <img className="painting" src={birds} alt="birds" onClick={() => this.activateModal(birds)}></img>
                 </div>
+
                 <div className="img-wrapper">
                     <img className="painting" src={hand} alt="hand" onClick={() => this.activateModal(hand)}></img>
                 </div>
