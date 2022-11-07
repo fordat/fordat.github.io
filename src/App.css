@@ -14,7 +14,7 @@
 
 .main-nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   background-color: rgba(255,255,255,0.3);
 }
 
@@ -28,7 +28,6 @@
   background-color: rgba(255,255,255,0.2);
   -moz-transition: background-color .3s ease-out;
   -webkit-transition: background-color .3s ease-out;
-
 }
 
 .slider-div {
@@ -44,6 +43,10 @@ body {
 
 p, h1, h3 {
   color: rgba(0,0,0,0.8);
+}
+
+h3 {
+  margin-top: 0;
 }
 
 p {
@@ -65,6 +68,37 @@ p {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom:2em;
+}
+
+.project {
+  padding: 4px 4px 4px 4px;
+  border-radius: 5px;
+}
+
+.project:hover {
+  background-color: rgba(255,255,255,0.2);
+  -moz-transition: background-color .3s ease-out;
+  -webkit-transition: background-color .3s ease-out;
+  cursor: pointer;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-header-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project-header-date {
+  font-style: italic;
+}
+
+.project-description {
+  padding: 1rem 0rem 0rem 0rem;
+  text-align: left;
 }
 
 .wlink {

@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from './components/Navbar.js';
 import Colors from './components/Colors.js';
 import About from './components/About.js';
-import Work from './components/Work.js';
+import Projects from './components/Projects.js';
 import Sketchbook from './components/Sketchbook.js';
 
 class Main extends React.Component {
@@ -36,7 +36,7 @@ class Main extends React.Component {
                   <Navbar />
                   <br />
                   <Route path="/colors" exact render={() => <Colors changeBackground={this.changeBackground}></Colors>} />
-                  <Route path="/work" component={Work} />
+                  <Route path="/projects" component={Projects} />
                   <Route path="/sketchbook" component={Sketchbook} />
                   <Route path="/" exact component={About} />
                 </BrowserRouter>
