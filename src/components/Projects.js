@@ -3,8 +3,8 @@ import React from 'react';
 class Projects extends React.Component {
     render() {
         return (
-          <div className="info-wrapper">
-            <h3 className="info">Projects</h3>
+          <div className="project-wrapper">
+            <h3 className="projects">Projects</h3>
             <div 
               className="project"
               onClick={(e) => {

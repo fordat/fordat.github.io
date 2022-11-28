@@ -70,9 +70,23 @@ p {
   padding-bottom:2em;
 }
 
+/* PROJECTS */
+
+.projects {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.project-wrapper {
+  padding-bottom:2em;
+}
+
 .project {
-  padding: 4px 4px 4px 4px;
-  border-radius: 5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .project:hover {
