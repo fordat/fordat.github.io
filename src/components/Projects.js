@@ -9,6 +9,23 @@ class Projects extends React.Component {
               className="project"
               onClick={(e) => {
                 e.preventDefault();
+                window.open('https://bsky.app/profile/quigonswbot.bsky.social','_blank');}}
+            >
+              <div className="project-header">
+                <h4 className="project-header-title">Qui-Gon Bot</h4>
+                <div className="project-header-date">July 2023</div>
+              </div>
+              <div className="project-description">
+                A BlueSky bot that posts randomly selected quotes from Qui-Gon Jinn in English and Japanese.
+              </div>
+              <div className="project-description">
+                Stack: Node
+              </div>
+            </div>
+            <div 
+              className="project"
+              onClick={(e) => {
+                e.preventDefault();
                 window.open('https://taskmanagermern.herokuapp.com/login','_blank');}}
             >
               <div className="project-header">
