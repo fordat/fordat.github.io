@@ -3,12 +3,13 @@ import React from 'react';
 class About extends React.Component {
     render() {
         return (
-          <div className="info-wrapper">
-            <h3 className="info">About Me</h3>
-            <p className="info">I'm a software developer who lives and works in Vancouver, BC.</p>
-            <p className="info">Currently, I'm a Front End Developer at PhoneBox, where I work with Vue, React, and React Native. Previously, I was at Fyrefish Technologies, working on front-end features in Vue.js and creating designs with Figma.  Before that, I was a laboratory manager, researcher, and developer at the <a className="wlink" href="https://viscoglab.psych.ubc.ca/">UBC Visual Cognition Lab</a>, where I researched cognitive science, perception, and data visualization. I also worked as a software developer for the UBC Department of Psychology's <a className="wlink" href="https://www.home.tapestry-tool.com/">Tapestry Tool</a> and conducted usability tests for them as well.</p>
-            <p className="info">In my free time, I like to cook, eat, swim, paint, play board games, and ride my bicycle.</p>
-          </div>
+            <div className="info-wrapper">
+                <h3 className="info">About Me</h3>
+                <p className="info">I'm a software developer working in Vancouver, BC.</p>
+                <p className="info">Currently, I'm a Frontend Developer at PhoneBox, a wireless network provider. I'm proficient in TypeScript and Node.js and have extensive experience working with the MERN stack for web development and React Native for mobile.</p>
+                <p className="info">Previously, I was at Fyrefish Technologies, working on designs and developing new products.  Previously, I was a laboratory manager, researcher, and developer at the <a className="wlink" href="https://viscoglab.psych.ubc.ca/">UBC Visual Cognition Lab</a>, where I got to work on problems relating to cognitive science, perception, and data visualization.</p>
+                <p className="info">In my free time, I like to cook, eat, swim, play board games, and mess around with my bicycle.</p>
+            </div>
         )
     }
 }
