@@ -8,6 +8,7 @@ import katerose from '../img/katerose.jpg';
 import face from '../img/face.jpeg';
 import foot from '../img/foot.jpeg';
 import schloss from '../img/schloss.jpg';
+import hereditary from '../img/hereditary.jpg';
 
 class Sketchbook extends React.Component {
 
@@ -40,6 +41,10 @@ class Sketchbook extends React.Component {
         return (
             // todo: refactor images
             <div className="painting-wrapper">
+                <div className="img-wrapper">
+                    <img className="painting" src={hereditary} alt="Toni Collette in Hereditary" onClick={() => this.activateModal(hereditary)}></img>
+                </div>
+
                 <div className="img-wrapper">
                     <img className="painting" src={schloss} alt="A solitary schloss" onClick={() => this.activateModal(schloss)}></img>
                 </div>
