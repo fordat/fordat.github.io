@@ -14,16 +14,9 @@ class Main extends React.Component {
     };
 
     changeBackground = (color) => {
-
         let background = color;
-        console.log("changed the background to " + background);
-        
-        // take a copy of the existing state
-        let oldBackground = {...this.state.background};
-
-        oldBackground = background;
         // add state
-        this.setState({background: background});
+        this.setState({background});
         document.body.style = `background: ${background};`;
     };
 
