@@ -16,7 +16,7 @@ class Projects extends React.Component {
                 <div className="project-header-date">July 2025</div>
               </div>
               <div className="project-description">
-                An open-source NPM package & Expo module that exposes Apple's <a className="wlink" href="https://developer.apple.com/augmented-reality/roomplan/">RoomPlan</a> SDK to React Native. You can use it to create a 3D scan of rooms or larger structures and export them as USDZ files.
+                An open-source NPM package & Expo module that exposes Apple's <a className="wlink" href="https://developer.apple.com/augmented-reality/roomplan/">RoomPlan</a> SDK to React Native. You can use it to create 3D scans of rooms or larger structures and export them as USDZ files.
               </div>
               <div className="project-description">
                 Stack: TypeScript, Node, Swift.
