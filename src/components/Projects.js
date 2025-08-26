@@ -19,7 +19,7 @@ class Projects extends React.Component {
                 An open-source NPM package & Expo module that exposes Apple's <a className="wlink" href="https://developer.apple.com/augmented-reality/roomplan/">RoomPlan</a> SDK to React Native. You can use it to create 3D scans of rooms or larger structures and export them as USDZ files.
               </div>
               <div className="project-description">
-                Stack: TypeScript, Node, Swift.
+                Stack: React Native, TypeScript, Node, Swift.
               </div>
             </div>
             <div 
@@ -33,7 +33,7 @@ class Projects extends React.Component {
                 <div className="project-header-date">March 2024</div>
               </div>
               <div className="project-description">
-                An online role-playing game with generative SVG art and pixel graphics. For this project I created a RESTful API using Express.js / TypeScript / MongoDB and hosted it as an AWS EC2 instance. The frontend is React.js with Redux for state management, hosted as an S3 bucket on AWS. Currently, I have over 110 users, a leaderboard, an online chat system, and a “News” API that automatically posts updates.
+                An online role-playing game with generative SVG art and pixel graphics. For this project I created a RESTful API using Express.js / TypeScript / MongoDB and hosted it as an AWS EC2 instance. The frontend is React.js with Redux for state management, hosted as an S3 bucket on AWS. Currently, I have over 130 users, a leaderboard, an online chat system, and a “News” API that automatically posts updates.
               </div>
               <div className="project-description">
                 Stack: React/Redux, TypeScript, Node, Express, MongoDB.
